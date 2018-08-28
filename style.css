@@ -1,0 +1,56 @@
+
+body{
+    background: black;
+}
+/* top nav style */
+.topnav {
+    background-color: #FEFEFE;
+    overflow: hidden;
+    height: 80px;
+    width: 1000px;
+    margin: auto;
+    padding: 20px 0px 0px 0px; 
+    color: #021D5C;
+    font-family: 'Karla', sans-serif;
+
+    }   
+/* nav logo */
+#logo {
+    padding: 15px 100px 0px 20px;  
+    font-family: 'Karla', sans-serif;
+
+}
+/* nav buttons */
+.navButton {
+    padding: 0px 20px 0px 20px;
+    font-family: 'Karla', sans-serif;
+
+}
+/* nav sign up button */
+#signUp{
+    background: #D8EFD0;
+    font: #66C145;
+    margin: 0px 0px 0px 30px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Karla', sans-serif;
+}
+/* first div */
+#amParadox {
+    background-image: url("Images/image1.png");    
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+#amParadoxTitle{
+    font-family: 'Karla', sans-serif;
+    font-size: 30px, bold;
+    color: white;
+}
+
+#brent {
+    background: white;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
