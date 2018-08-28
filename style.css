@@ -1,6 +1,6 @@
 
 body{
-    background: black;
+    /* background: black; */
 }
 /* top nav style */
 .topnav {
@@ -52,10 +52,11 @@ button:hover{
 /* first div */
 #amParadox {
     background-image: url("Images/image1.png");
-    /* animation: zoominoutsinglefeatured 1s infinite ;     */
+    /* animation: zoominoutsinglefeatured 15s infinite ;     */
     width: 1000px;
     height: 500px;
     margin: auto;
+    overflow: hidden;
 }
 /* @keyframes zoominoutsinglefeatured {
     0% {
@@ -67,10 +68,6 @@ button:hover{
     100% {
         transform: scale(1);
     }
-}
-
-.cardcontainer img {
-    animation: zoominoutsinglefeatured 1s infinite ;
 } */
 
 #amParadoxTitle{
@@ -88,7 +85,7 @@ button:hover{
 #brent {
     background: white;
     width: 950px;
-    height: 500px;
+    height: 375px;
     margin: auto;
 }
 
@@ -96,7 +93,7 @@ button:hover{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
-    padding: 125px 25px 125px 25px; 
+    padding: 75px 25px 75px 25px; 
     
   }
 #brentIMG {
@@ -115,4 +112,35 @@ button:hover{
     font-family: 'Karla', sans-serif;
     color: #001D5D;
     font-size: 30px;
+}
+
+#carousal{
+    background: #f6f6f6;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#carousalTitle {
+    font-family: 'Karla', sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: #001D5D;
+    padding: 75px 0px 10px 0px;
+
+}
+
+#carousalText {
+    font-family: 'Karla', sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    max-width: 350px;
+}
+
+#map {
+    margin: auto;
+    text-align: center;
 }
