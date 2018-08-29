@@ -12,11 +12,25 @@ body{
     padding: 20px 0px 0px 0px; 
     color: #021D5C;
     font-family: 'Karla', sans-serif;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 3;
     
     }   
 /* nav logo */
 #logo {
     padding: 15px 100px 0px 20px;  
+    font-family: 'Karla', sans-serif;
+
+}
+
+p{
+    font-family: 'Karla', sans-serif;
+
+}
+#play {
+  
     font-family: 'Karla', sans-serif;
 
 }
@@ -76,7 +90,7 @@ button:hover{
     color: white;
     margin: auto;
     position: absolute;           
-    top: 30%;
+    top: 20%;
     max-width: 450px;
     padding: 0px 0px 0px 30px;
 }
@@ -146,6 +160,8 @@ button:hover{
 #map {
     margin: auto;
     text-align: center;
+    position: sticky;
+    z-index: 3;
 }
 
 #contact {
@@ -153,7 +169,8 @@ button:hover{
     width: 950px;
     height: 375px;
     margin: auto;
-    z-index: -1;
+    z-index: 1;
+    position: sticky;
 }
 
 #form {
@@ -176,12 +193,12 @@ button:hover{
 #contactIMG3 {
     grid-column: 4 / 6;
     width: 100%;
-    overflow: hidden;
     vertical-align: top;
     position: relative;
-    bottom: 75px;
-    left: 35px;
-    z-index: 0;
+    bottom: 165px;
+    left: 45px;
+    z-index: 2;
+    overflow: hidden;
 
 
 }
@@ -189,11 +206,14 @@ button:hover{
 .navbarbottom {
     background-color: #001D5D;
     color: white;
-    overflow: hidden;
     bottom: 0;
     width: 1000px;
     margin: auto; 
-    z-index: -1;  
+    position: relative;
+    z-index: 99999; 
+    left: 0;
+    right: 0;
+    
    
  }
  ul{ 
@@ -202,3 +222,7 @@ button:hover{
      line-height: 25px;
      font-size: 10px;
     }
+
+#terms {
+    display: inline;   
+}
