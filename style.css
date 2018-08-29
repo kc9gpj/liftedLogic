@@ -78,9 +78,12 @@ button:hover{
     position: absolute;           
     top: 30%;
     max-width: 450px;
-    padding: 0px 0px 0px 30xp;
+    padding: 0px 0px 0px 30px;
 }
 
+#title {
+    font-size: 45px;
+}
 
 #brent {
     background: white;
@@ -180,8 +183,16 @@ button:hover{
 
 .navbarbottom {
     background-color: #001D5D;
+    color: white;
     overflow: hidden;
     bottom: 0;
     width: 1000px;
     margin: auto;   
+   
  }
+ ul{ 
+    font-family: 'Karla', sans-serif;
+     list-style-type: none; 
+     line-height: 25px;
+     font-size: 10px;
+    }
