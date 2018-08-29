@@ -158,14 +158,30 @@ button:hover{
     font-family: 'Karla', sans-serif;
 }
 
+#formtext {
+    font-family: 'Karla', sans-serif;
+
+}
+
+#formTitle {
+    font-family: 'Karla', sans-serif;
+    color: #001D5D;
+    font-size: 30px;
+}
+
 #contactIMG3 {
     grid-column: 4 / 6;
     width: 100%;
-
     overflow: auto;
     vertical-align: top;
-    
-
 
 
 }
+
+.navbarbottom {
+    background-color: #001D5D;
+    overflow: hidden;
+    bottom: 0;
+    width: 1000px;
+    margin: auto;   
+ }
