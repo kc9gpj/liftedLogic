@@ -60,8 +60,42 @@ New albums every month, check out the newest & best from Snyder Recording artist
 </div>
 
 <div id="map">
-        <iframe width="1000" height="500" frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?q=10261+W+87th+St,+Overland+Park,+KS+66212&key=..." allowfullscreen></iframe>
+     <div class="mapouter"><div class="gmap_canvas"><iframe width="1000" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=10261%20W%2087th%20St%2C%20Overland%20Park%2C%20KS%2066212&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">homepage erstellen lassen</a></div><style>.mapouter{margin: auto;text-align:right;height:500px;width:1000px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1000px;}</style></div>
+</div>
+<div id="contact" class="grid-container">
+    <div id="form" class="grid-item">
+    <div id="formTitle">
+
+    </div>
+    <div id="formText">
+
+    </div>
+   
+            <form method="POST" action="send">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstName">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName">
+            <label for="Email">Email</label>
+            <input type="text" name="Email">
+            <select name="cars">
+            <option value="reason">Reason For Contacting</option>
+            <option value="turtles">I like turtles</option>
+            <option value="saget">bob saget</option>
+            <option value="cheeseburger">can i haz cheeseburger</option>
+            </select>
+            <label for="subject">Message</label>
+            <textarea type="text" name="message" 
+            style="height:200px"></textarea>
+            <input type="submit" id="submit" value="Submit">
+          </form>  
+
+</div>
+<div id="contactIMG">
+        <img id="contactIMG3" src="Images/image3.png">
+
+
+</div>
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
